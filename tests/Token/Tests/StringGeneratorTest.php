@@ -2,9 +2,9 @@
 namespace Sinergi\Token\Tests;
 
 use Sinergi\Token\StringGenerator;
-use PHPUnit_Framework_TestCase;
+use PHPUnit\Framework\TestCase;
 
-class StringGeneratorTest extends PHPUnit_Framework_TestCase
+class StringGeneratorTest extends TestCase
 {
     public function testRandomAlphanum()
     {
